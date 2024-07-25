@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.perfil {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 80vh;
+  color: #ccf381;
+  font-size: 1.1vw;
+}
+
+.blockLeft {
+  width: 70%;
+  height: 100%;
+  background: #4831d4;
+}
+
+.blockRight {
+  width: 30%;
+  height: 100%;
+  background: #ccf381;
+}
+
+.perfil h2 {
+  padding: 10vh;
+}
+
+.description {
+  padding: 3vw 0 0 10vw;
+}
+
+.perfil h3 {
+  padding-top: 1vw;
+  color: white;
+  font-size: 0.8vw;
+  width: 50%;
+}
+
+.topicPerfil {
+  display: flex;
+  flex-direction: row;
+  padding-top: 13vw;
+  gap: 5vw;
+  font-size: 0.7vw;
+}
+
+.topicPerfil h4 {
+  width: 20%;
+}
