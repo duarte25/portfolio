@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Avatar from '@mui/material/Avatar';
 
 export default function Home() {
   return (
@@ -22,7 +23,22 @@ export default function Home() {
         </div>
 
         <div className={styles.blockRight}>
-          <Image src="avatar_perfil.svg" alt="Icon" width={500} height={500} />
+          <div className={styles.containerPerfil}>
+            <div className={styles.avatarWrapper}>
+              <Avatar className={styles.photoPerfil} variant="square">
+                <Image
+                  className={styles.image}
+                  src="/photo_perfil.jpeg"
+                  alt="Foto"
+                  layout="fill"
+                  objectFit="cover"
+                  objectPosition="center -8vh"
+                />
+              </Avatar>
+              <Image className={styles.square} src="/square.svg" alt="square" layout="fill" objectFit="contain" />
+              <Image className={styles.squarePoints} src="/avatar_perfil.svg" alt="Icon" layout="fill" objectFit="contain" />
+            </div>
+          </div>
         </div>
       </div>
     </main>
