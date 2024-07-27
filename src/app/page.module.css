@@ -1,15 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .container {
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
 }
 
 .perfil {
+  scroll-snap-align: start;
+  width: 100%;
+  height: 80%;
   display: flex;
+  align-items: start;
   flex-direction: row;
-  width: 100vw;
-  height: 80vh;
   color: #ccf381;
   font-size: 1.2vw;
+}
+
+.projects, .technologies {
+  scroll-snap-align: start;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .blockLeft {
@@ -50,12 +65,15 @@
   flex-direction: row;
   padding-top: 20vh;
   gap: 5vw;
-  font-size: 0.8vw;
-  line-height: 1.1rem;
 }
 
 .topicPerfil h4 {
-  width: 20%;
+  font-family: "Roboto";
+  width: 30%;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  letter-spacing: .2rem;
 }
 
 .containerPerfil {
@@ -96,4 +114,16 @@
   margin-top: -8vw;
   margin-left: -9vw;
   z-index: 2;
+}
+
+.projects {
+  background-color: blue;
+  color: white;
+  font-size: 5em;
+}
+
+.technologies {
+  background-color: green;
+  color: white;
+  font-size: 5em;
 }
