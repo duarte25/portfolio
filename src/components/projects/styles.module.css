@@ -1,0 +1,62 @@
+.projects {
+    background-color: white;
+    color: #4831d4;
+    font-size: 1.5rem;
+}
+
+.cards {
+    padding-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.card {
+    max-width: 15%;
+    height: 50vh;
+    background: #e1e1e1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.legendCard {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects h1 {
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.projects h2 {
+    color: #3d155f;
+}
+
+.cardMediaCidades {
+    height: 40%;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    object-fit: fill;
+}
+
+.cardMediaSeuUsado {
+    height: 40%;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.bottomNavigation {
+    display: flex;
+    align-items: center;
+    height: 10%;
+}
+
+.icon {
+    font-size: 1.5vw;
+}
