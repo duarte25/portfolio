@@ -42,7 +42,8 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.projects}>
-        <h1>Projects</h1>
+        <h1>Projetos</h1>
+        <h2>Cidades Inteligentes</h2>
       </div>
       <div className={styles.technologies}>
         <h1>Technologies</h1>
