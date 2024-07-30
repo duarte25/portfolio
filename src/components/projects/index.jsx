@@ -9,8 +9,10 @@ export default function Perfil() {
 
     return (
         <div className={styles.projects}>
-            <h1>Projetos</h1>
-
+            <div className={styles.titleProjects}>
+                <h1>Projetos</h1>
+                <h2>Aqui estão alguns dos projetos anteriores onde trabalhei.</h2>
+            </div>
             <div className={styles.cards}>
                 <Card className={styles.card}>
                     <CardMedia
@@ -20,13 +22,13 @@ export default function Perfil() {
                         alt="Cidades Inteligentes"
                     />
                     <CardContent className={styles.legendCard}>
-                        <Typography gutterBottom variant="h6" component="div">
+                        <Typography className={styles.title} gutterBottom variant="h6" component="div">
                             Cidades Inteligentes Cerejeiras
                         </Typography>
-                        <Typography variant="body2" color="#807f7f">
+                        <Typography className={styles.legend} variant="body2" color="#807f7f">
                             O projeto "Cidades Inteligentes de Cerejeiras" é uma iniciativa importante que visa modernizar a cidade de Cerejeiras com
                             tecnologia e inovação. A iniciativa inclui sistemas de controle de frota municipal, otimizando a gestão dos veículos públicos,
-                            e um chat interativo para que a população solicite serviços aos órgãos públicos de maneira rápida e eficient
+                            e um chat interativo para que a população solicite serviços aos órgãos públicos de maneira rápida e eficiente.
                         </Typography>
                     </CardContent>
                     <BottomNavigation className={styles.bottomNavigation}>
@@ -42,13 +44,13 @@ export default function Perfil() {
                         alt="Cidades Inteligentes"
                     />
                     <CardContent className={styles.legendCard}>
-                        <Typography gutterBottom variant="h6" component="div">
+                        <Typography className={styles.title} gutterBottom variant="h6" component="div">
                             Seuusado.com
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                            This impressive paella is a perfect party dish and a fun meal to cook
-                            together with your guests. Add 1 cup of frozen peas along with the mussels,
-                            if you like.
+                        <Typography className={styles.legend} variant="body2" color="text.secondary">
+                            SeuUsado.com é uma plataforma em construção, criada para facilitar a compra e
+                            venda de veículos de todos os portes. O site, ainda em desenvolvimento, busca
+                            conectar vendedores e compradores de maneira eficiente e segura.
                         </Typography>
                     </CardContent>
                     <BottomNavigation className={styles.bottomNavigation}>
@@ -61,14 +63,14 @@ export default function Perfil() {
                     <CardMedia
                         className={styles.cardMediaSeuUsado}
                         component="img"
-                        image="/seuusado.png"
+                        image="/adat.png"
                         alt="Cidades Inteligentes"
                     />
                     <CardContent className={styles.legendCard}>
-                        <Typography gutterBottom variant="h6" component="div">
-                            Seuusado.com
+                        <Typography className={styles.title} gutterBottom variant="h6" component="div">
+                            Acidentes No Transporte Brasileiro
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
+                        <Typography className={styles.legend} variant="body2" color="text.secondary">
                             This impressive paella is a perfect party dish and a fun meal to cook
                             together with your guests. Add 1 cup of frozen peas along with the mussels,
                             if you like.

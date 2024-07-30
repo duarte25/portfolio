@@ -1,20 +1,19 @@
 .projects {
-    background-color: white;
     color: #4831d4;
     font-size: 1.5rem;
 }
 
 .cards {
-    padding-top: 10%;
+    padding-top: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1vw;
+    gap: 2vw;
 }
 
 .card {
-    max-width: 15%;
-    height: 50vh;
+    width: 17%;
+    height: 60vh;
     background: #e1e1e1;
     display: flex;
     flex-direction: column;
@@ -27,13 +26,23 @@
     flex-direction: column;
 }
 
-.projects h1 {
+.title {
+    font-size: 75%;
+}
+
+.legend {
+    font-size: 60%;
+}
+
+.titleProjects {
     padding-top: 10%;
     padding-left: 10%;
 }
 
 .projects h2 {
     color: #3d155f;
+    font-size: 1.2vw;
+    font-weight: 200;
 }
 
 .cardMediaCidades {
