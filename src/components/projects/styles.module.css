@@ -4,7 +4,7 @@
 }
 
 .cards {
-    padding-top: 5%;
+    padding-top: 3%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,8 +64,10 @@
     display: flex;
     align-items: center;
     height: 10%;
+    background: #919191;
 }
 
 .icon {
     font-size: 1.5vw;
+    color: #e1e1e1;
 }

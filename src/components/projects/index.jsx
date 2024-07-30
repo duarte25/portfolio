@@ -4,6 +4,7 @@ import { CgWebsite } from "react-icons/cg";
 import { FiFigma } from "react-icons/fi";
 import { BottomNavigation, BottomNavigationAction, Card, CardContent, CardMedia, Typography } from "@mui/material";
 import * as React from 'react';
+import Image from "next/image";
 
 export default function Perfil() {
 
@@ -68,12 +69,12 @@ export default function Perfil() {
                     />
                     <CardContent className={styles.legendCard}>
                         <Typography className={styles.title} gutterBottom variant="h6" component="div">
-                            Acidentes No Transporte Brasileiro
+                            ADAT - Análise de Dados de Acidentes de Trânsito
                         </Typography>
                         <Typography className={styles.legend} variant="body2" color="text.secondary">
-                            This impressive paella is a perfect party dish and a fun meal to cook
-                            together with your guests. Add 1 cup of frozen peas along with the mussels,
-                            if you like.
+                            ADAT, uma plataforma transparente que oferece dados detalhados sobre
+                            acidentes de trânsito no Brasil. Com um design inovador, você pode explorar e filtrar
+                            informações de forma fácil e intuitiva.
                         </Typography>
                     </CardContent>
                     <BottomNavigation className={styles.bottomNavigation}>
