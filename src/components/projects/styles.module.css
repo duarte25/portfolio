@@ -1,19 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .projects {
     color: #4831d4;
     font-size: 1.5rem;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.titleProjects {
+    display: flex;
+    flex-direction: row;
+  
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.projects h2 {
+    font-family: "Roboto";
+    color: #3d155f;
+    font-size: 1.1vw;
+    font-weight: 200;
+}
+
+.planet {
+    margin-left: 50%;
+    margin-top: -2%;
+}
+
 .cards {
     padding-top: 3%;
     display: flex;
+    flex-direction: row;
     align-items: center;
+    align-content: center;
     justify-content: center;
     gap: 2vw;
 }
 
 .card {
-    width: 17%;
-    height: 60vh;
+    width: 16vw;
+    height: 55vh;
     background: #e1e1e1;
     display: flex;
     flex-direction: column;
@@ -32,17 +61,6 @@
 
 .legend {
     font-size: 60%;
-}
-
-.titleProjects {
-    padding-top: 10%;
-    padding-left: 10%;
-}
-
-.projects h2 {
-    color: #3d155f;
-    font-size: 1.2vw;
-    font-weight: 200;
 }
 
 .cardMediaCidades {

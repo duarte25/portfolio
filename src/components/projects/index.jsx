@@ -3,6 +3,7 @@ import styles from "./styles.module.css"
 import { CgWebsite } from "react-icons/cg";
 import { FiFigma } from "react-icons/fi";
 import { BottomNavigation, BottomNavigationAction, Card, CardContent, CardMedia, Typography } from "@mui/material";
+import { GrInstagram } from "react-icons/gr";
 import * as React from 'react';
 import Image from "next/image";
 
@@ -11,9 +12,14 @@ export default function Perfil() {
     return (
         <div className={styles.projects}>
             <div className={styles.titleProjects}>
-                <h1>Projetos</h1>
-                <h2>Aqui estão alguns dos projetos anteriores onde trabalhei.</h2>
+                <div>
+                    <h1>Projetos</h1>
+                    <h2>Aqui estão alguns dos projetos anteriores onde trabalhei.</h2>
+                </div>
+                <Image className={styles.planet} width={100} height={100} src="/planet.svg" layout="intrinsic" objectFit="none" alt="Cloud" />
             </div>
+
+
             <div className={styles.cards}>
                 <Card className={styles.card}>
                     <CardMedia
@@ -34,6 +40,7 @@ export default function Perfil() {
                     </CardContent>
                     <BottomNavigation className={styles.bottomNavigation}>
                         <BottomNavigationAction label="Web" icon={<CgWebsite />} className={styles.icon} />
+                        <BottomNavigationAction label="Web" icon={<GrInstagram />} className={styles.icon} />
                     </BottomNavigation>
                 </Card>
 
@@ -82,7 +89,31 @@ export default function Perfil() {
                         <BottomNavigationAction label="Web" icon={<FiFigma />} className={styles.icon} />
                     </BottomNavigation>
                 </Card>
+
+                <Card className={styles.card}>
+                    <CardMedia
+                        className={styles.cardMediaSeuUsado}
+                        component="img"
+                        image="/adat.png"
+                        alt="Cidades Inteligentes"
+                    />
+                    <CardContent className={styles.legendCard}>
+                        <Typography className={styles.title} gutterBottom variant="h6" component="div">
+                            ADAT - Análise de Dados de Acidentes de Trânsito
+                        </Typography>
+                        <Typography className={styles.legend} variant="body2" color="text.secondary">
+                            ADAT, uma plataforma transparente que oferece dados detalhados sobre
+                            acidentes de trânsito no Brasil. Com um design inovador, você pode explorar e filtrar
+                            informações de forma fácil e intuitiva.
+                        </Typography>
+                    </CardContent>
+                    <BottomNavigation className={styles.bottomNavigation}>
+                        <BottomNavigationAction label="Web" icon={<CgWebsite />} className={styles.icon} />
+                        <BottomNavigationAction label="Web" icon={<FiFigma />} className={styles.icon} />
+                    </BottomNavigation>
+                </Card>
             </div>
+
         </div>
     )
 }
