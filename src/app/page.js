@@ -1,6 +1,7 @@
 import styles from './page.module.css';
 import Perfil from '@/components/perfil';
 import Projects from '@/components/projects'
+import Technologies from '@/components/technologies';
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         <Projects />
       </div>
       <div className={styles.technologies}>
-        <h1>Technologies</h1>
+        <Technologies />
       </div>
     </main>
   );

@@ -7,7 +7,7 @@ import { GrInstagram } from "react-icons/gr";
 import * as React from 'react';
 import Image from "next/image";
 
-export default function Perfil() {
+export default function Projects() {
 
     return (
         <div className={styles.projects}>
@@ -18,8 +18,6 @@ export default function Perfil() {
                 </div>
                 <Image className={styles.planet} width={100} height={100} src="/planet.svg" layout="intrinsic" objectFit="none" alt="Cloud" />
             </div>
-
-
             <div className={styles.cards}>
                 <Card className={styles.card}>
                     <CardMedia
