@@ -6,7 +6,7 @@ import { RiJavascriptFill } from "react-icons/ri";
 import Image from "next/image";
 import { Card } from "@mui/material";
 import { SiGnometerminal } from "react-icons/si";
-import { FaLaptopCode } from "react-icons/fa6";
+import { FaCode } from "react-icons/fa6";
 
 export default function Technologies() {
 
@@ -24,9 +24,15 @@ export default function Technologies() {
 
             <SiGnometerminal />
             <Card className={styles.card}>
-                <FaLaptopCode className={styles.iconTec}/>
-                <h1>Linguagens</h1>
-                <h1>Ola!</h1>
+                <FaCode className={styles.iconTec} />
+
+                <div className={styles.linguagens}>
+                    <h2>Eu curto criar coisas do zero e transformar ideias em realidade com Go e JavaScript.</h2>
+                    <h1>Linguagens</h1>
+                    <h3>JavaScript <RiJavascriptFill /> </h3>
+                    <h3>GoLang <FaGolang /></h3>
+                </div>
+
             </Card>
         </div>
     )

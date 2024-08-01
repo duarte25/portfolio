@@ -31,8 +31,28 @@
 
 .iconTec {
     margin-top: 5%;
-    font-size: 4vw;
-    background-color: red;
+    font-size: 3vw;
+    background-color: #ccf381;
     border-radius: 10vh; /* Define a borda normal */
-    box-shadow: 0 0 0 10px red; /* Define uma sombra extra ao redor da borda */  
+    box-shadow: 0 0 0 0.8vw #ccf381 /* Define uma sombra extra ao redor da borda */  
+}
+
+.linguagens { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.linguagens h1 {
+    font-size: 1.5vw;
+    padding-bottom: 5%;
+}
+
+.linguagens h2 {
+    padding-bottom: 5%;
+}
+
+.linguagens h3, .linguagens h2 {
+    font-size: 1vw;
 }
