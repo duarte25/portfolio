@@ -27,14 +27,14 @@ export default function Technologies() {
     return (
         <div className={styles.technologies}>
             <div className={styles.title}>
-                <h1>Minhas skills</h1>
+                <h1>Minhas Skills</h1>
             </div>
             <div className={styles.cards}>
                 <Card className={`${styles.card} ${styles.cardLeft}`}>
                     <FaCode className={styles.iconTec} />
                     <div className={styles.linguagens}>
                         <h1>Linguagens</h1>
-                        <h2>Eu curto criar coisas do zero e transformar ideias em realidade com Go e JavaScript.</h2>
+                        <h2>Curto criar coisas do zero e transformar ideias em realidade com Go e JavaScript.</h2>
                         <h3>JavaScript <IoLogoJavascript className={styles.iconJS} /> </h3>
                         <h3>GoLang <FaGolang className={styles.iconGolang} /></h3>
                     </div>
@@ -47,29 +47,30 @@ export default function Technologies() {
                         <div className={styles.frameworkLibs}>
                             <h3>React<FaReact style={{ color: "#4E7AB5", fontSize: "1.3vw" }} /> </h3>
                             <h3>Next.js <SiNextdotjs /></h3>
-                            <h3>MUI <SiMui style={{color: "#4E7AB5", fontSize: "1vw"}}/></h3>
-                            <h3>Charts <img src={"./iconGoogle.svg"} alt="Icon" style={{width: "1vw"}}/></h3>
-                            <h3>Tailwind CSS <RiTailwindCssFill style={{color: "#4E7AB5", fontSize: "1.1vw"}}/></h3>
-                            <h3>Open Street Map <img src={"./openstreetmap.svg"} alt="Icon" style={{width: "1vw"}}/></h3>
-                            <h3>Node <FaNodeJs style={{color: "#388E3C", fontSize: "1.2vw"}}/></h3>
-                            <h3>Jest <SiJest style={{color: "#99415B"}}/></h3>
+                            <h3>MUI <SiMui style={{ color: "#4E7AB5", fontSize: "1vw" }} /></h3>
+                            <h3>Charts <img src={"./iconGoogle.svg"} alt="Icon" style={{ width: "1vw" }} /></h3>
+                            <h3>Tailwind CSS <RiTailwindCssFill style={{ color: "#4E7AB5", fontSize: "1.1vw" }} /></h3>
+                            <h3>Open Street Map <img src={"./openstreetmap.svg"} alt="Icon" style={{ width: "1vw" }} /></h3>
+                            <h3>Node <FaNodeJs style={{ color: "#388E3C", fontSize: "1.2vw" }} /></h3>
+                            <h3>Jest <SiJest style={{ color: "#99415B" }} /></h3>
                             <h3>Express <SiExpress /></h3>
-                            <h3>Go-Gota <FaGolang className={styles.iconGolang}/></h3>
-                            <h3>Go-Chi <img src={"./chi.svg"} alt="Icon" style={{width: "1.2vw"}}/></h3>
-                            <h3>Pandas <img src={"./iconPandas.svg"} alt="Icon" style={{width: "1vw"}}/></h3>
+                            <h3>Go-Gota <FaGolang className={styles.iconGolang} /></h3>
+                            <h3>Go-Chi <img src={"./chi.svg"} alt="Icon" style={{ width: "1.2vw" }} /></h3>
+                            <h3>Pandas <img src={"./iconPandas.svg"} alt="Icon" style={{ width: "1vw" }} /></h3>
                         </div>
                     </div>
                 </Card>
                 <Card className={`${styles.card} ${styles.cardRight}`}>
                     <FaCode className={styles.iconTec} />
                     <div className={styles.linguagens}>
-                        <h1>Linguagens</h1>
-                        <h2>Eu curto criar coisas do zero e transformar ideias em realidade com Go e JavaScript.</h2>
-                        <h3>JavaScript <IoLogoJavascript /> </h3>
-                        <h3>GoLang <FaGolang /></h3>
+                        <h1>Designer</h1>
+                        <h2>Uso o Figma para explorar ferramentas que se encaixam em cada projeto, criando uma experiência visual única para o usuário.</h2>
+                        <div className={styles.frameworkLibs}>
+                            <h3>Figma <img src={"./iconFigma.svg"} alt="Icon" style={{ width: "1.2vw" }} /></h3>
+                            <h3>UX/UI, Product design</h3>
+                        </div>
                     </div>
                 </Card>
-
             </div>
         </div>
     )
