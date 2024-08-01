@@ -2,7 +2,7 @@
 import styles from "./styles.module.css"
 import * as React from 'react';
 import { FaGolang } from "react-icons/fa6";
-import { RiJavascriptFill } from "react-icons/ri";
+import { IoLogoJavascript } from "react-icons/io";
 import Image from "next/image";
 import { Card } from "@mui/material";
 import { SiGnometerminal } from "react-icons/si";
@@ -15,25 +15,36 @@ export default function Technologies() {
             <div className={styles.title}>
                 <h1>Minhas skills</h1>
             </div>
-
-            <div className={styles.skills}>
-                <h2>Linguagens</h2>
-                <h3>JavaScript <RiJavascriptFill /> </h3>
-                <h3>GoLang <FaGolang /></h3>
+            <div className={styles.cards}>
+                <Card className={`${styles.card} ${styles.cardLeft}`}>
+                    <FaCode className={styles.iconTec} />
+                    <div className={styles.linguagens}>
+                        <h1>Linguagens</h1>
+                        <h2>Eu curto criar coisas do zero e transformar ideias em realidade com Go e JavaScript.</h2>
+                        <h3>JavaScript <IoLogoJavascript className={styles.iconJS}/> </h3>
+                        <h3>GoLang <FaGolang className={styles.iconGolang}/></h3>
+                    </div>
+                </Card>
+                <Card className={styles.card}>
+                    <FaCode className={styles.iconTec} />
+                    <div className={styles.linguagens}>
+                        <h1>Linguagens</h1>
+                        <h2>Eu curto criar coisas do zero e transformar ideias em realidade com Go e JavaScript.</h2>
+                        <h3>JavaScript <IoLogoJavascript /> </h3>
+                        <h3>GoLang <FaGolang /></h3>
+                    </div>
+                </Card>
+                <Card className={`${styles.card} ${styles.cardRight}`}>
+                    <FaCode className={styles.iconTec} />
+                    <div className={styles.linguagens}>
+                        <h1>Linguagens</h1>
+                        <h2>Eu curto criar coisas do zero e transformar ideias em realidade com Go e JavaScript.</h2>
+                        <h3>JavaScript <IoLogoJavascript /> </h3>
+                        <h3>GoLang <FaGolang /></h3>
+                    </div>
+                </Card>
+                
             </div>
-
-            <SiGnometerminal />
-            <Card className={styles.card}>
-                <FaCode className={styles.iconTec} />
-
-                <div className={styles.linguagens}>
-                    <h2>Eu curto criar coisas do zero e transformar ideias em realidade com Go e JavaScript.</h2>
-                    <h1>Linguagens</h1>
-                    <h3>JavaScript <RiJavascriptFill /> </h3>
-                    <h3>GoLang <FaGolang /></h3>
-                </div>
-
-            </Card>
         </div>
     )
 }
