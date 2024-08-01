@@ -19,3 +19,20 @@
 .skills h2 {
     color: #ccf381;
 }
+
+.card {
+    width: 25%;
+    height: 70%;
+    border-radius: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconTec {
+    margin-top: 5%;
+    font-size: 4vw;
+    background-color: red;
+    border-radius: 10vh; /* Define a borda normal */
+    box-shadow: 0 0 0 10px red; /* Define uma sombra extra ao redor da borda */  
+}
