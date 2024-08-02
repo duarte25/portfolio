@@ -10,7 +10,7 @@
   /* scroll-snap-align: start; */
   height: 80%;
   width: 100%;
-}f8f8ff
+}
 
 .projects, .technologies {
   /* scroll-snap-align: start; */
@@ -28,3 +28,10 @@
   color: white;
   font-size: 5em;
 }
+
+
+/* @media screen and (max-width: 1250px) {
+  .perfil {
+    height: 60%;
+  }
+} */
