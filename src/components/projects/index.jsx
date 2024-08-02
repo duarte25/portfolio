@@ -92,17 +92,17 @@ export default function Projects() {
                     <CardMedia
                         className={styles.cardMediaSeuUsado}
                         component="img"
-                        image="/adat.png"
+                        image="/levantamento.svg"
                         alt="Cidades Inteligentes"
+                        style={{ width: 200 }}
                     />
                     <CardContent className={styles.legendCard}>
                         <Typography className={styles.title} gutterBottom variant="h6" component="div">
-                            ADAT - Análise de Dados de Acidentes de Trânsito
+                            Mobile Levantamento Patrimonial IFRO
                         </Typography>
                         <Typography className={styles.legend} variant="body2" color="text.secondary">
-                            ADAT, uma plataforma transparente que oferece dados detalhados sobre
-                            acidentes de trânsito no Brasil. Com um design inovador, você pode explorar e filtrar
-                            informações de forma fácil e intuitiva.
+                            Levantamento Patrimonial, um aplicativo que facilita a consulta e o levantamento de informações
+                            sobre o patrimônio do IFRO de forma intuitiva e acessível.
                         </Typography>
                     </CardContent>
                     <BottomNavigation className={styles.bottomNavigation}>
