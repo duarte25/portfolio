@@ -31,6 +31,7 @@ export default function Perfil() {
                         </Avatar>
                         <Image className={styles.square} src="/square.svg" alt="square" layout="fill" objectFit="contain" />
                         <Image className={styles.squarePoints} src="/avatar_perfil.svg" alt="Icon" layout="fill" objectFit="contain" />
+                        <Image className={`${styles.squarePoints} ${styles.squarePointsMobile}`} src="/avatar_perfil_mobile.svg" alt="Icon" layout="fill" objectFit="contain" />
                     </div>
                 </div>
             </div>
