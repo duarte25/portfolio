@@ -125,30 +125,34 @@
     }
 
     .containerPerfil {
-        margin: 5% 0 0 0;
+        margin: -5% 0 0 0;
     }
 
     .avatarWrapper {
         position: relative;
-        width: 40vw;
-        height: 60vw;
+        width: 60vw;
+        height: 70vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .photoPerfil {
         width: 30vw;
-        height: 55%;
+        height: 45%;
     }
 
     .square {
-        padding: 1vw;
-        margin-top: -25%;
-        margin-left: -7%;
+        padding: 12vw;
+        margin-top: 6%;
+        margin-left: 5%;
         z-index: 1;
     }
     
     .squarePoints {
-        margin-top: -10vw;
-        margin-left: -9vw;
+        margin-top: -2%;
+        margin-left: -2%;
+        padding: 3vw;
         z-index: 2;
     }
     
