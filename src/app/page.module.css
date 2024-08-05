@@ -29,6 +29,13 @@
   font-size: 5em;
 }
 
+
+@media screen and (max-width: 1250px) {
+  .projects {
+    height: 150vh;
+  }
+}
+
 @media screen and (max-width: 650px) {
   .perfil {
     height: 110%;

@@ -19,97 +19,103 @@ export default function Projects() {
                 <Image className={styles.planet} width={100} height={100} src="/planet.svg" layout="intrinsic" objectFit="none" alt="Cloud" />
             </div>
             <div className={styles.cards}>
-                <Card className={styles.card}>
-                    <CardMedia
-                        className={styles.cardMediaCidades}
-                        component="img"
-                        image="/cidades.png"
-                        alt="Cidades Inteligentes"
-                    />
-                    <CardContent className={styles.legendCard}>
-                        <Typography className={styles.title} gutterBottom variant="h6" component="div">
-                            Cidades Inteligentes Cerejeiras
-                        </Typography>
-                        <Typography className={styles.legend} variant="body2" color="#807f7f">
-                            O projeto "Cidades Inteligentes de Cerejeiras" é uma iniciativa importante que visa modernizar a cidade de Cerejeiras com
-                            tecnologia e inovação. A iniciativa inclui sistemas de controle de frota municipal, otimizando a gestão dos veículos públicos,
-                            e um chat interativo para que a população solicite serviços aos órgãos públicos de maneira rápida e eficiente.
-                        </Typography>
-                    </CardContent>
-                    <BottomNavigation className={styles.bottomNavigation}>
-                        <BottomNavigationAction label="Web" icon={<CgWebsite />} className={styles.icon} />
-                        <BottomNavigationAction label="Web" icon={<GrInstagram />} className={styles.icon} />
-                    </BottomNavigation>
-                </Card>
 
-                <Card className={styles.card}>
-                    <CardMedia
-                        className={styles.cardMediaSeuUsado}
-                        component="img"
-                        image="/seuusado.png"
-                        alt="Cidades Inteligentes"
-                    />
-                    <CardContent className={styles.legendCard}>
-                        <Typography className={styles.title} gutterBottom variant="h6" component="div">
-                            Seuusado.com
-                        </Typography>
-                        <Typography className={styles.legend} variant="body2" color="text.secondary">
-                            SeuUsado.com é uma plataforma em construção, criada para facilitar a compra e
-                            venda de veículos de todos os portes. O site, ainda em desenvolvimento, busca
-                            conectar vendedores e compradores de maneira eficiente e segura.
-                        </Typography>
-                    </CardContent>
-                    <BottomNavigation className={styles.bottomNavigation}>
-                        <BottomNavigationAction label="Web" icon={<CgWebsite />} className={styles.icon} />
-                        <BottomNavigationAction label="Web" icon={<FiFigma />} className={styles.icon} />
-                    </BottomNavigation>
-                </Card>
+                <div className={styles.blocoCard}>
 
-                <Card className={styles.card}>
-                    <CardMedia
-                        className={styles.cardMediaSeuUsado}
-                        component="img"
-                        image="/adat.png"
-                        alt="Cidades Inteligentes"
-                    />
-                    <CardContent className={styles.legendCard}>
-                        <Typography className={styles.title} gutterBottom variant="h6" component="div">
-                            ADAT - Análise de Dados de Acidentes de Trânsito
-                        </Typography>
-                        <Typography className={styles.legend} variant="body2" color="text.secondary">
-                            ADAT, uma plataforma transparente que oferece dados detalhados sobre
-                            acidentes de trânsito no Brasil. Com um design inovador, você pode explorar e filtrar
-                            informações de forma fácil e intuitiva.
-                        </Typography>
-                    </CardContent>
-                    <BottomNavigation className={styles.bottomNavigation}>
-                        <BottomNavigationAction label="Web" icon={<CgWebsite />} className={styles.icon} />
-                        <BottomNavigationAction label="Web" icon={<FiFigma />} className={styles.icon} />
-                    </BottomNavigation>
-                </Card>
+                    <Card className={styles.card}>
+                        <CardMedia
+                            className={styles.cardMediaCidades}
+                            component="img"
+                            image="/cidades.png"
+                            alt="Cidades Inteligentes"
+                        />
+                        <CardContent className={styles.legendCard}>
+                            <Typography className={styles.title} gutterBottom variant="h6" component="div">
+                                Cidades Inteligentes Cerejeiras
+                            </Typography>
+                            <Typography className={styles.legend} variant="body2" color="#807f7f">
+                                O projeto "Cidades Inteligentes de Cerejeiras" é uma iniciativa importante que visa modernizar a cidade de Cerejeiras com
+                                tecnologia e inovação. A iniciativa inclui sistemas de controle de frota municipal, otimizando a gestão dos veículos públicos,
+                                e um chat interativo para que a população solicite serviços aos órgãos públicos de maneira rápida e eficiente.
+                            </Typography>
+                        </CardContent>
+                        <BottomNavigation className={styles.bottomNavigation}>
+                            <BottomNavigationAction label="Web" icon={<CgWebsite />} className={styles.icon} />
+                            <BottomNavigationAction label="Web" icon={<GrInstagram />} className={styles.icon} />
+                        </BottomNavigation>
+                    </Card>
 
-                <Card className={styles.card}>
-                    <CardMedia
-                        className={styles.cardMediaSeuUsado}
-                        component="img"
-                        image="/levantamento.svg"
-                        alt="Cidades Inteligentes"
-                        style={{ width: 200 }}
-                    />
-                    <CardContent className={styles.legendCard}>
-                        <Typography className={styles.title} gutterBottom variant="h6" component="div">
-                            Mobile Levantamento Patrimonial IFRO
-                        </Typography>
-                        <Typography className={styles.legend} variant="body2" color="text.secondary">
-                            Levantamento Patrimonial, um aplicativo que facilita a consulta e o levantamento de informações
-                            sobre o patrimônio do IFRO de forma intuitiva e acessível.
-                        </Typography>
-                    </CardContent>
-                    <BottomNavigation className={styles.bottomNavigation}>
-                        <BottomNavigationAction label="Web" icon={<CgWebsite />} className={styles.icon} />
-                        <BottomNavigationAction label="Web" icon={<FiFigma />} className={styles.icon} />
-                    </BottomNavigation>
-                </Card>
+                    <Card className={styles.card}>
+                        <CardMedia
+                            className={styles.cardMediaSeuUsado}
+                            component="img"
+                            image="/seuusado.png"
+                            alt="Cidades Inteligentes"
+                        />
+                        <CardContent className={styles.legendCard}>
+                            <Typography className={styles.title} gutterBottom variant="h6" component="div">
+                                Seuusado.com
+                            </Typography>
+                            <Typography className={styles.legend} variant="body2" color="text.secondary">
+                                SeuUsado.com é uma plataforma em construção, criada para facilitar a compra e
+                                venda de veículos de todos os portes. O site, ainda em desenvolvimento, busca
+                                conectar vendedores e compradores de maneira eficiente e segura.
+                            </Typography>
+                        </CardContent>
+                        <BottomNavigation className={styles.bottomNavigation}>
+                            <BottomNavigationAction label="Web" icon={<CgWebsite />} className={styles.icon} />
+                            <BottomNavigationAction label="Web" icon={<FiFigma />} className={styles.icon} />
+                        </BottomNavigation>
+                    </Card>
+                </div>
+
+                <div className={styles.blocoCard}>
+                    <Card className={styles.card}>
+                        <CardMedia
+                            className={styles.cardMediaSeuUsado}
+                            component="img"
+                            image="/adat.png"
+                            alt="Cidades Inteligentes"
+                        />
+                        <CardContent className={styles.legendCard}>
+                            <Typography className={styles.title} gutterBottom variant="h6" component="div">
+                                ADAT - Análise de Dados de Acidentes de Trânsito
+                            </Typography>
+                            <Typography className={styles.legend} variant="body2" color="text.secondary">
+                                ADAT, uma plataforma transparente que oferece dados detalhados sobre
+                                acidentes de trânsito no Brasil. Com um design inovador, você pode explorar e filtrar
+                                informações de forma fácil e intuitiva.
+                            </Typography>
+                        </CardContent>
+                        <BottomNavigation className={styles.bottomNavigation}>
+                            <BottomNavigationAction label="Web" icon={<CgWebsite />} className={styles.icon} />
+                            <BottomNavigationAction label="Web" icon={<FiFigma />} className={styles.icon} />
+                        </BottomNavigation>
+                    </Card>
+
+                    <Card className={styles.card}>
+                        <CardMedia
+                            className={styles.cardMediaSeuUsado}
+                            component="img"
+                            image="/levantamento.svg"
+                            alt="Cidades Inteligentes"
+                            style={{ width: 200 }}
+                        />
+                        <CardContent className={styles.legendCard}>
+                            <Typography className={styles.title} gutterBottom variant="h6" component="div">
+                                Mobile Levantamento Patrimonial IFRO
+                            </Typography>
+                            <Typography className={styles.legend} variant="body2" color="text.secondary">
+                                Levantamento Patrimonial, um aplicativo que facilita a consulta e o levantamento de informações
+                                sobre o patrimônio do IFRO de forma intuitiva e acessível.
+                            </Typography>
+                        </CardContent>
+                        <BottomNavigation className={styles.bottomNavigation}>
+                            <BottomNavigationAction label="Web" icon={<CgWebsite />} className={styles.icon} />
+                            <BottomNavigationAction label="Web" icon={<FiFigma />} className={styles.icon} />
+                        </BottomNavigation>
+                    </Card>
+                </div>
             </div>
 
         </div>

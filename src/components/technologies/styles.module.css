@@ -46,11 +46,13 @@
     margin-top: 10%;
     font-size: 2vw;
     background-color: #ccf381;
-    border-radius: 10vh; /* Define a borda normal */
-    box-shadow: 0 0 0 0.8vw #ccf381 /* Define uma sombra extra ao redor da borda */  
+    border-radius: 10vh;
+    /* Define a borda normal */
+    box-shadow: 0 0 0 0.8vw #ccf381;
+    /* Define uma sombra extra ao redor da borda */
 }
 
-.linguagens { 
+.linguagens {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,7 +68,8 @@
     padding-bottom: 10%;
 }
 
-.linguagens h3, .linguagens h2 {
+.linguagens h3,
+.linguagens h2 {
     gap: 0.5vw;
     display: flex;
     align-items: center;
@@ -85,8 +88,8 @@
 
 .iconJS {
     font-size: 1.2vw;
-    color:black;
-    background-color:  #f7df1e;
+    color: black;
+    background-color: #f7df1e;
 }
 
 .iconGolang {
@@ -99,4 +102,10 @@
     flex-direction: column;
     align-items: center;
     gap: 0.2vw;
+}
+
+@media screen and (max-width: 650px) {
+    .perfil {
+        height: 110%;
+    }
 }
