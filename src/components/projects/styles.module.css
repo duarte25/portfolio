@@ -91,7 +91,8 @@
 }
 
 .icon {
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
+    font-size: 100%;
     color: #e1e1e1;
 }
 
@@ -122,18 +123,46 @@
 
 @media screen and (max-width: 850px) { 
 
+    .planet {
+        margin-left: 15%;
+        margin-top: -2%;
+    }
+
     .card {
         width: 100%;
     }
 
+    .projects h2 {
+        font-size: 2.5vw;
+    }
 }
-
 
 @media screen and (max-width: 650px) { 
 
     .planet {
         display: none;
     }
+
+    .blocoCard {
+        display: flex;
+        flex-flow: row wrap;  
+        padding-bottom: 0;
+    }    
+
+    .card {
+        width: 70%;
+        margin-bottom: 5%;
+    }
 }
 
+
+@media screen and (max-width: 400px) { 
+    .projects h2 {
+        font-size: 3.5vw;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
 
