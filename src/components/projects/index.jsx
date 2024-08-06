@@ -24,7 +24,7 @@ export default function Projects() {
                         <CardMedia
                             className={styles.cardMediaCidades}
                             component="img"
-                            image="/cidades.png"
+                            image="cidades.png"
                             alt="Cidades Inteligentes"
                         />
                         <CardContent className={styles.legendCard}>
@@ -47,7 +47,7 @@ export default function Projects() {
                         <CardMedia
                             className={styles.cardMediaSeuUsado}
                             component="img"
-                            image="/seuusado.png"
+                            image="seuusado.png"
                             alt="Cidades Inteligentes"
                         />
                         <CardContent className={styles.legendCard}>
@@ -72,7 +72,7 @@ export default function Projects() {
                         <CardMedia
                             className={styles.cardMediaSeuUsado}
                             component="img"
-                            image="/adat.png"
+                            image="adat.png"
                             alt="Cidades Inteligentes"
                         />
                         <CardContent className={styles.legendCard}>
@@ -95,7 +95,7 @@ export default function Projects() {
                         <CardMedia
                             className={styles.cardMediaSeuUsado}
                             component="img"
-                            image="/levantamento.svg"
+                            image="levantamento.svg"
                             alt="Cidades Inteligentes"
                             style={{ width: 200 }}
                         />
