@@ -85,6 +85,7 @@
 
 .image {
     object-fit: cover;
+    object-position: center;
 }
 
 .square {
@@ -92,16 +93,19 @@
     margin-top: -15%;
     margin-left: -13%;
     z-index: 1;
+    object-fit: contain;
 }
 
 .squarePoints {
     margin-top: -6vw;
     margin-left: -9vw;
     z-index: 2;
+    object-fit: contain;
 }
 
 .squarePointsMobile {
     display: none;
+    object-fit: contain;
 }
 
 @media screen and (max-width: 650px) {
