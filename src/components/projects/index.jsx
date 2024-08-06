@@ -16,7 +16,7 @@ export default function Projects() {
                     <h1>Projetos</h1>
                     <h2>Aqui estão alguns dos projetos anteriores onde trabalhei.</h2>
                 </div>
-                <Image className={styles.planet} width={100} height={100} src="planet.svg" alt="Cloud" />
+                <Image className={styles.planet} width={100} height={100} src="/planet.svg" alt="Cloud" />
             </div>
             <div className={styles.cards}>
                 <div className={styles.blocoCard}>
@@ -24,7 +24,7 @@ export default function Projects() {
                         <CardMedia
                             className={styles.cardMediaCidades}
                             component="img"
-                            image="cidades.png"
+                            image="/cidades.png"
                             alt="Cidades Inteligentes"
                         />
                         <CardContent className={styles.legendCard}>
@@ -47,7 +47,7 @@ export default function Projects() {
                         <CardMedia
                             className={styles.cardMediaSeuUsado}
                             component="img"
-                            image="seuusado.png"
+                            image="/seuusado.png"
                             alt="Cidades Inteligentes"
                         />
                         <CardContent className={styles.legendCard}>
@@ -72,7 +72,7 @@ export default function Projects() {
                         <CardMedia
                             className={styles.cardMediaSeuUsado}
                             component="img"
-                            image="adat.png"
+                            image="/adat.png"
                             alt="Cidades Inteligentes"
                         />
                         <CardContent className={styles.legendCard}>
@@ -95,7 +95,7 @@ export default function Projects() {
                         <CardMedia
                             className={styles.cardMediaSeuUsado}
                             component="img"
-                            image="levantamento.svg"
+                            image="/levantamento.svg"
                             alt="Cidades Inteligentes"
                             style={{ width: 200 }}
                         />
