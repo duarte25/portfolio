@@ -24,14 +24,12 @@ export default function Perfil() {
                                 className={styles.image}
                                 src="/photo_perfil.jpeg"
                                 alt="Foto"
-                                layout="fill"
-                                objectFit="cover"
-                                objectPosition="center"
+                                fill
                             />
                         </Avatar>
-                        <Image className={styles.square} src="/square.svg" alt="square" layout="fill" objectFit="contain" />
-                        <Image className={styles.squarePoints} src="/avatar_perfil.svg" alt="Icon" layout="fill" objectFit="contain" />
-                        <Image className={`${styles.squarePoints} ${styles.squarePointsMobile}`} src="/avatar_perfil_mobile.svg" alt="Icon" layout="fill" objectFit="contain" />
+                        <Image className={styles.square} src="/square.svg" alt="square" fill />
+                        <Image className={styles.squarePoints} src="/avatar_perfil.svg" alt="Icon" fill priority/>
+                        <Image className={`${styles.squarePoints} ${styles.squarePointsMobile}`} src="/avatar_perfil_mobile.svg" alt="Icon" fill />
                     </div>
                 </div>
             </div>

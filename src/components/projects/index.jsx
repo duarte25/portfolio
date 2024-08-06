@@ -16,7 +16,7 @@ export default function Projects() {
                     <h1>Projetos</h1>
                     <h2>Aqui estão alguns dos projetos anteriores onde trabalhei.</h2>
                 </div>
-                <Image className={styles.planet} width={100} height={100} src="/planet.svg" layout="intrinsic" objectFit="none" alt="Cloud" />
+                <Image className={styles.planet} width={100} height={100} src="/planet.svg" alt="Cloud" />
             </div>
             <div className={styles.cards}>
                 <div className={styles.blocoCard}>
