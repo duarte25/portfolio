@@ -13,7 +13,6 @@
 .titleProjects {
     display: flex;
     flex-direction: row;
-  
     padding-top: 10%;
     padding-left: 10%;
 }
@@ -25,19 +24,29 @@
     font-weight: 200;
 }
 
+.projects h1{
+    font-size: 4vw;
+}
+
 .planet {
     margin-left: 50%;
     margin-top: -2%;
 }
 
 .cards {
-    padding-top: 3%;
+    padding: 3% 5% 0 5%;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;  
     align-items: center;
     align-content: center;
     justify-content: center;
-    gap: 2vw;
+    gap: 2%;
+}
+
+.blocoCard {
+    display: flex;
+    flex-direction: row;
+    gap: 6%;
 }
 
 .card {
@@ -86,6 +95,78 @@
 }
 
 .icon {
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
+    font-size: 100%;
     color: #e1e1e1;
 }
+
+@media screen and (max-width: 1450px) {
+
+    .card {
+        width: 20vw;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .cards {
+        padding: 3% 15% 0 15%;
+        gap: 5%;
+    }
+    
+    .blocoCard {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5%;
+    }
+
+    .card {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 850px) { 
+
+    .planet {
+        margin-left: 15%;
+        margin-top: -2%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .projects h2 {
+        font-size: 2.5vw;
+    }
+
+}
+
+@media screen and (max-width: 650px) { 
+
+    .planet {
+        display: none;
+    }
+
+    .blocoCard {
+        display: flex;
+        flex-flow: row wrap;  
+        padding-bottom: 0;
+    }    
+
+    .card {
+        width: 70%;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 400px) { 
+    .projects h2 {
+        font-size: 3.5vw;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
+

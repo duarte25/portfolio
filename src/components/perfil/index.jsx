@@ -22,15 +22,16 @@ export default function Perfil() {
                         <Avatar className={styles.photoPerfil} variant="square">
                             <Image
                                 className={styles.image}
-                                src="/photo_perfil2.jpeg"
+                                src="/photo_perfil.jpeg"
                                 alt="Foto"
                                 layout="fill"
                                 objectFit="cover"
-                                objectPosition="center -8vh"
+                                objectPosition="center"
                             />
                         </Avatar>
                         <Image className={styles.square} src="/square.svg" alt="square" layout="fill" objectFit="contain" />
                         <Image className={styles.squarePoints} src="/avatar_perfil.svg" alt="Icon" layout="fill" objectFit="contain" />
+                        <Image className={`${styles.squarePoints} ${styles.squarePointsMobile}`} src="/avatar_perfil_mobile.svg" alt="Icon" layout="fill" objectFit="contain" />
                     </div>
                 </div>
             </div>

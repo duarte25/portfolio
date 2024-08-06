@@ -39,18 +39,18 @@ export default function Technologies() {
                         <h1>Frameworks e Libs</h1>
                         <h2>Analiso onde cada framework ou biblioteca se encaixa para aproveitar suas habilidades específicas em cada projeto.</h2>
                         <div className={styles.frameworkLibs}>
-                            <h3>React<FaReact style={{ color: "#4E7AB5", fontSize: "1.3vw" }} /> </h3>
-                            <h3>Next.js <SiNextdotjs /></h3>
-                            <h3>MUI <SiMui style={{ color: "#4E7AB5", fontSize: "1vw" }} /></h3>
-                            <h3>Charts <img src={"./iconGoogle.svg"} alt="Charts" style={{ width: "1vw" }} /></h3>
-                            <h3>Tailwind CSS <RiTailwindCssFill style={{ color: "#4E7AB5", fontSize: "1.1vw" }} /></h3>
-                            <h3>Open Street Map <img src={"./openstreetmap.svg"} alt="OpenStreet" style={{ width: "1vw" }} /></h3>
-                            <h3>Node <FaNodeJs style={{ color: "#388E3C", fontSize: "1.2vw" }} /></h3>
-                            <h3>Jest <SiJest style={{ color: "#99415B" }} /></h3>
-                            <h3>Express <SiExpress /></h3>
-                            <h3>Go-Gota <FaGolang className={styles.iconGolang} /></h3>
-                            <h3>Go-Chi <img src={"./chi.svg"} alt="Chi" style={{ width: "1.2vw" }} /></h3>
-                            <h3>Pandas <img src={"./iconPandas.svg"} alt="Pandas" style={{ width: "1vw" }} /></h3>
+                            <h3>React<FaReact style={{ color: "#4E7AB5" }} className={styles.iconTools} /> </h3>
+                            <h3>Next.js <SiNextdotjs className={styles.iconTools} /></h3>
+                            <h3>MUI <SiMui style={{ color: "#4E7AB5" }} className={styles.iconTools} /></h3>
+                            <h3>Charts <img src={"./iconGoogle.svg"} alt="Charts" className={styles.iconTools} /></h3>
+                            <h3>Tailwind CSS <RiTailwindCssFill style={{ color: "#4E7AB5" }} className={styles.iconTools} /></h3>
+                            <h3>Open Street Map <img src={"./openstreetmap.svg"} alt="OpenStreet" style={{ width: "1vw" }} className={styles.iconTools} /></h3>
+                            <h3>Node <FaNodeJs style={{ color: "#388E3C" }} className={styles.iconTools} /></h3>
+                            <h3>Jest <SiJest style={{ color: "#99415B" }} className={styles.iconTools} /></h3>
+                            <h3>Express <SiExpress className={styles.iconTools} /></h3>
+                            <h3>Go-Gota <FaGolang className={`${styles.iconGolang} ${styles.iconTools}`} /></h3>
+                            <h3>Go-Chi <img src={"./chi.svg"} alt="Chi" className={styles.iconTools} /></h3>
+                            <h3>Pandas <img src={"./iconPandas.svg"} alt="Pandas" className={styles.iconTools} /></h3>
                         </div>
                     </div>
                 </Card>
@@ -60,7 +60,7 @@ export default function Technologies() {
                         <h1>Designer</h1>
                         <h2>Uso o Figma para explorar ferramentas que se encaixam em cada projeto, criando uma experiência visual única para o usuário.</h2>
                         <div className={styles.frameworkLibs}>
-                            <h3>Figma <img src={"./iconFigma.svg"} alt="Figma" style={{ width: "1.2vw" }} /></h3>
+                            <h3>Figma <img src={"./iconFigma.svg"} alt="Figma" className={styles.iconTools} /></h3>
                             <h3>UX/UI, Product design</h3>
                         </div>
                     </div>
