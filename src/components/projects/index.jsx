@@ -19,9 +19,7 @@ export default function Projects() {
                 <Image className={styles.planet} width={100} height={100} src="/planet.svg" layout="intrinsic" objectFit="none" alt="Cloud" />
             </div>
             <div className={styles.cards}>
-
                 <div className={styles.blocoCard}>
-
                     <Card className={styles.card}>
                         <CardMedia
                             className={styles.cardMediaCidades}

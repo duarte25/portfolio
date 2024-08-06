@@ -28,7 +28,6 @@
 }
 
 .perfil h2 {
-    padding: 10vh;
     padding: 7%;
 }
 
@@ -124,6 +123,14 @@
         background: #ccf381;
     }
 
+    .perfil h2 {
+        font-size: 3vw;
+    }
+
+    .topicPerfil h4 {
+        width: 100%;
+    }
+
     .containerPerfil {
         margin: -5% 0 0 0;
     }
@@ -148,14 +155,14 @@
         margin-left: 5%;
         z-index: 1;
     }
-    
+
     .squarePoints {
         margin-top: -2%;
         margin-left: -2%;
         padding: 3vw;
         z-index: 2;
     }
-    
+
     .squarePoints {
         display: none;
     }
