@@ -27,14 +27,14 @@ export default function Projects() {
                             image="/cidades.png"
                             alt="Cidades Inteligentes"
                         />
-                        <CardContent className={styles.legendCard}>
+                        <CardContent className={`${styles.legendCard} ${styles.legendCidadesInteligentes}`}>
                             <Typography className={styles.title} gutterBottom variant="h6" component="div">
                                 Cidades Inteligentes Cerejeiras
                             </Typography>
                             <Typography className={styles.legend} variant="body2" color="#807f7f">
                                 O projeto "Cidades Inteligentes de Cerejeiras" é uma iniciativa importante que visa modernizar a cidade de Cerejeiras com
                                 tecnologia e inovação. A iniciativa inclui sistemas de controle de frota municipal, otimizando a gestão dos veículos públicos,
-                                e um chat interativo para que a população solicite serviços aos órgãos públicos de maneira rápida e eficiente.
+                                e um chat interativo para que a população solicite serviços aos órgãos públicos.
                             </Typography>
                         </CardContent>
                         <BottomNavigation className={styles.bottomNavigation}>
@@ -42,7 +42,6 @@ export default function Projects() {
                             <BottomNavigationAction label="Web" icon={<GrInstagram />} className={styles.icon} />
                         </BottomNavigation>
                     </Card>
-
                     <Card className={styles.card}>
                         <CardMedia
                             className={styles.cardMediaSeuUsado}
@@ -54,7 +53,7 @@ export default function Projects() {
                             <Typography className={styles.title} gutterBottom variant="h6" component="div">
                                 Seuusado.com
                             </Typography>
-                            <Typography className={styles.legend} variant="body2" color="text.secondary">
+                            <Typography className={styles.legend} variant="body2" color="#807f7f">
                                 SeuUsado.com é uma plataforma em construção, criada para facilitar a compra e
                                 venda de veículos de todos os portes. O site, ainda em desenvolvimento, busca
                                 conectar vendedores e compradores de maneira eficiente e segura.
@@ -79,7 +78,7 @@ export default function Projects() {
                             <Typography className={styles.title} gutterBottom variant="h6" component="div">
                                 ADAT - Análise de Dados de Acidentes de Trânsito
                             </Typography>
-                            <Typography className={styles.legend} variant="body2" color="text.secondary">
+                            <Typography className={styles.legend} variant="body2" color="#807f7f">
                                 ADAT, uma plataforma transparente que oferece dados detalhados sobre
                                 acidentes de trânsito no Brasil. Com um design inovador, você pode explorar e filtrar
                                 informações de forma fácil e intuitiva.
