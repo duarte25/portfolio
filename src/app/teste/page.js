@@ -6,7 +6,7 @@ export default function Teste() {
     <div className={styles.container}>
       <div>Firts Page</div>
       <div>Second Page</div>
-      <div>Third Page</div>
+      <div>Third Pag</div>
     </div>
   )
 }
