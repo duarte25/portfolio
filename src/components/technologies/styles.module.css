@@ -65,7 +65,7 @@
 }
 
 .linguagens h2 {
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .linguagens h3,
@@ -151,9 +151,13 @@
 
     .card {
         width: 80%;
-        height: 80%;
+        height: 90%;
         margin-bottom: 5%;
         border-radius: 5%;
+    }
+
+    .title h1 {
+        font-size: 5vw;
     }
 
     .linguagens h1 {
@@ -161,18 +165,17 @@
     }
 
     .linguagens h2 {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     .linguagens h3 {
-        font-size: 2.5vw;
+        font-size: 3.5vw;
         line-height: 3.2vw;
-
     }
 
     .iconTools, .iconJS, .iconGolang {
-        font-size: 2vw;
-        width: 3vw;
+        font-size: 4vw;
+        width: 4vw;
     }
 
     .iconTec {

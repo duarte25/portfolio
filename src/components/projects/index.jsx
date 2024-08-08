@@ -6,6 +6,8 @@ import { BottomNavigation, BottomNavigationAction, Card, CardContent, CardMedia,
 import { GrInstagram } from "react-icons/gr";
 import * as React from 'react';
 import Image from "next/image";
+import { FaGithub } from "react-icons/fa";
+
 
 export default function Projects() {
 
@@ -16,7 +18,7 @@ export default function Projects() {
                     <h1>Projetos</h1>
                     <h2>Aqui estão alguns dos projetos anteriores onde trabalhei.</h2>
                 </div>
-                <Image className={styles.planet} width={100} height={100} src="/planet.svg" alt="Cloud" />
+                <Image className={styles.planet} width={100} height={100} src="planet.svg" alt="Cloud" />
             </div>
             <div className={styles.cards}>
                 <div className={styles.blocoCard}>
@@ -24,12 +26,12 @@ export default function Projects() {
                         <CardMedia
                             className={styles.cardMediaCidades}
                             component="img"
-                            image="/cidades.png"
+                            image="cidades.png"
                             alt="Cidades Inteligentes"
                         />
                         <CardContent className={`${styles.legendCard} ${styles.legendCidadesInteligentes}`}>
                             <Typography className={styles.title} gutterBottom variant="h6" component="div">
-                                Cidades Inteligentes Cerejeiras
+                                Cidades Inteligentes 
                             </Typography>
                             <Typography className={styles.legend} variant="body2" color="#807f7f">
                                 O projeto "Cidades Inteligentes de Cerejeiras" é uma iniciativa importante que visa modernizar a cidade de Cerejeiras com
@@ -38,16 +40,16 @@ export default function Projects() {
                             </Typography>
                         </CardContent>
                         <BottomNavigation className={styles.bottomNavigation}>
-                            <BottomNavigationAction label="Web" icon={<CgWebsite />} className={styles.icon} />
-                            <BottomNavigationAction label="Web" icon={<GrInstagram />} className={styles.icon} />
+                            <BottomNavigationAction icon={<CgWebsite />} className={styles.icon} />
+                            <BottomNavigationAction href="https://www.instagram.com/cidadesinteligentes.cerejeiras/" target="_blank" icon={<GrInstagram />} className={styles.icon} />
                         </BottomNavigation>
                     </Card>
                     <Card className={styles.card}>
                         <CardMedia
                             className={styles.cardMediaSeuUsado}
                             component="img"
-                            image="/seuusado.png"
-                            alt="Cidades Inteligentes"
+                            image="seuusado.png"
+                            alt="SeuUsado"
                         />
                         <CardContent className={styles.legendCard}>
                             <Typography className={styles.title} gutterBottom variant="h6" component="div">
@@ -60,8 +62,8 @@ export default function Projects() {
                             </Typography>
                         </CardContent>
                         <BottomNavigation className={styles.bottomNavigation}>
-                            <BottomNavigationAction label="Web" icon={<CgWebsite />} className={styles.icon} />
-                            <BottomNavigationAction label="Web" icon={<FiFigma />} className={styles.icon} />
+                            <BottomNavigationAction href="https://seuusado.com/" target="_blank" icon={<CgWebsite />} className={styles.icon} />
+                            <BottomNavigationAction href="https://www.figma.com/proto/v4RPiAKX3uel5FaiupPvH0/seuUsado.com" target="_blank" icon={<FiFigma />} className={styles.icon} />
                         </BottomNavigation>
                     </Card>
                 </div>
@@ -71,8 +73,8 @@ export default function Projects() {
                         <CardMedia
                             className={styles.cardMediaSeuUsado}
                             component="img"
-                            image="/adat.png"
-                            alt="Cidades Inteligentes"
+                            image="adat.png"
+                            alt="ADAT"
                         />
                         <CardContent className={styles.legendCard}>
                             <Typography className={styles.title} gutterBottom variant="h6" component="div">
@@ -85,8 +87,8 @@ export default function Projects() {
                             </Typography>
                         </CardContent>
                         <BottomNavigation className={styles.bottomNavigation}>
-                            <BottomNavigationAction label="Web" icon={<CgWebsite />} className={styles.icon} />
-                            <BottomNavigationAction label="Web" icon={<FiFigma />} className={styles.icon} />
+                            <BottomNavigationAction href="https://github.com/duarte25/adat" target="_blank" icon={<FaGithub />} className={styles.icon} />
+                            <BottomNavigationAction href="https://www.figma.com/proto/ZChblLGz6g4Qcz0nMW7UlQ/TCC-Gustavo?node-id=58-11&t=DrRHuYmyoNdE2pph-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=58%3A11&show-proto-sidebar=1" target="_blank" icon={<FiFigma />} className={styles.icon} />
                         </BottomNavigation>
                     </Card>
 
@@ -94,7 +96,7 @@ export default function Projects() {
                         <CardMedia
                             className={styles.cardMediaSeuUsado}
                             component="img"
-                            image="/levantamento.svg"
+                            image="levantamento.svg"
                             alt="Cidades Inteligentes"
                             style={{ width: 200 }}
                         />
@@ -108,8 +110,8 @@ export default function Projects() {
                             </Typography>
                         </CardContent>
                         <BottomNavigation className={styles.bottomNavigation}>
-                            <BottomNavigationAction label="Web" icon={<CgWebsite />} className={styles.icon} />
-                            <BottomNavigationAction label="Web" icon={<FiFigma />} className={styles.icon} />
+                            <BottomNavigationAction href="https://api-levantamento.app.fslab.dev/docs/" target="_blank" icon={<CgWebsite />} className={styles.icon} />
+                            <BottomNavigationAction href="https://www.figma.com/proto/dhz0w3tJg13HKijbPizq5Y/Levantamento-de-Invent%C3%A1rio?node-id=1430-1563&t=eAzz6tDksQhtrmCf-1&scaling=scale-down&content-scaling=fixed&page-id=719%3A546&starting-point-node-id=1430%3A1563" target="_blank" icon={<FiFigma />} className={styles.icon} />
                         </BottomNavigation>
                     </Card>
                 </div>

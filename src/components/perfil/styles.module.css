@@ -32,7 +32,6 @@
 }
 
 .description {
-    padding: 0 0 0 10vw;
     padding: 0 0 0 10%;
 }
 
@@ -127,6 +126,19 @@
         background: #ccf381;
     }
 
+    .description {
+        padding: 0 10% 0 10%;
+    }    
+
+    .perfil h1 {
+        font-size: 5vw;
+    }
+
+    .perfil h3 {
+        font-size: 3.5vw;
+        width: 100%;
+    }
+    
     .perfil h2 {
         font-size: 3vw;
     }
@@ -173,5 +185,12 @@
 
     .squarePointsMobile {
         display: block;
+    }
+
+    .topicPerfil {
+        display: flex;
+        flex-direction: column;
+        padding-top: 15%;
+        gap: 10vw;
     }
 }
