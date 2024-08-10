@@ -7,7 +7,7 @@ export const metadata = {
   title: "Gustavo Duarte",
   description: "Portfolio Gustavo Duarte",
   icons: {
-    icon: '/logo.svg', // /public path
+    icon: 'logo.svg', // /public path
   },
 };
 
