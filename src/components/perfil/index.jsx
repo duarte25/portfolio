@@ -27,9 +27,9 @@ export default function Perfil() {
                                 fill
                             />
                         </Avatar>
-                        <Image className={styles.square} src="\square.svg" alt="square" fill />
-                        <Image className={styles.squarePoints} src="\avatar_perfil.svg" alt="Icon" fill priority/>
-                        <Image className={`${styles.squarePoints} ${styles.squarePointsMobile}`} src="\avatar_perfil_mobile.svg" alt="Icon" fill />
+                        <Image className={styles.square} src="./square.svg" alt="square" fill />
+                        <Image className={styles.squarePoints} src="./avatar_perfil.svg" alt="Icon" fill priority/>
+                        <Image className={`${styles.squarePoints} ${styles.squarePointsMobile}`} src="./avatar_perfil_mobile.svg" alt="Icon" fill />
                     </div>
                 </div>
             </div>
