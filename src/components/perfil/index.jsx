@@ -22,7 +22,7 @@ export default function Perfil() {
                         <Avatar className={styles.photoPerfil} variant="square">
                             <Image
                                 className={styles.image}
-                                src="/photo_perfil.jpeg"
+                                src="photo_perfil.jpeg"
                                 alt="Foto"
                                 fill
                             />
