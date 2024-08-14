@@ -41,16 +41,16 @@ export default function Technologies() {
                         <div className={styles.frameworkLibs}>
                             <h3>React<FaReact style={{ color: "#4E7AB5" }} className={styles.iconTools} /> </h3>
                             <h3>Next.js <SiNextdotjs className={styles.iconTools} /></h3>
-                            <h3>MUI <SiMui style={{ color: "#4E7AB5" }} className={styles.iconTools} /></h3>
-                            <h3>Charts <img src={"./iconGoogle.svg"} alt="Charts" className={styles.iconTools} /></h3>
+                            {/* <h3>MUI <SiMui style={{ color: "#4E7AB5" }} className={styles.iconTools} /></h3> */}
+                            {/* <h3>Charts <img src={"./iconGoogle.svg"} alt="Charts" className={styles.iconTools} /></h3> */}
                             <h3>Tailwind CSS <RiTailwindCssFill style={{ color: "#4E7AB5" }} className={styles.iconTools} /></h3>
-                            <h3>Open Street Map <img src={"./openstreetmap.svg"} alt="OpenStreet" style={{ width: "1vw" }} className={styles.iconTools} /></h3>
+                            {/* <h3>Open Street Map <img src={"./openstreetmap.svg"} alt="OpenStreet" style={{ width: "1vw" }} className={styles.iconTools} /></h3> */}
                             <h3>Node <FaNodeJs style={{ color: "#388E3C" }} className={styles.iconTools} /></h3>
-                            <h3>Jest <SiJest style={{ color: "#99415B" }} className={styles.iconTools} /></h3>
                             <h3>Express <SiExpress className={styles.iconTools} /></h3>
-                            <h3>Go-Gota <FaGolang className={`${styles.iconGolang} ${styles.iconTools}`} /></h3>
+                            <h3>Jest <SiJest style={{ color: "#99415B" }} className={styles.iconTools} /></h3>
+                            {/* <h3>Go-Gota <FaGolang className={`${styles.iconGolang} ${styles.iconTools}`} /></h3> */}
                             <h3>Go-Chi <img src={"./chi.svg"} alt="Chi" className={styles.iconTools} /></h3>
-                            <h3>Pandas <img src={"./iconPandas.svg"} alt="Pandas" className={styles.iconTools} /></h3>
+                            {/* <h3>Pandas <img src={"./iconPandas.svg"} alt="Pandas" className={styles.iconTools} /></h3> */}
                         </div>
                     </div>
                 </Card>
