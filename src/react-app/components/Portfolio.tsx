@@ -10,6 +10,8 @@ export default function Portfolio() {
     document.head.appendChild(link);
   }, []);
 
+  const BASE_URL = import.meta.env.BASE_URL;
+
   const skills = [
     {
       name: 'Linguagens',
@@ -55,7 +57,7 @@ export default function Portfolio() {
       title: 'EcoIntegra',
       description: 'Atuei no levantamento de requisitos, implementação e desenvolvimento completo do sistema. Participei da prototipagem, da criação do site e da integração com sistemas da prefeitura, como o Oxy e outros serviços externos.',
       technologies: ['TypeScript', 'React', 'Next.js', 'Tailwind CSS', 'Express', 'PostgreSQL', 'Prisma', 'Digital Ocean'],
-      image: '/eco_integra.png',
+      image: `${BASE_URL}eco_integra.png`,
       link: 'https://ecointegra.tech/'
     },
     {
@@ -63,14 +65,14 @@ export default function Portfolio() {
       title: 'ADAT - Análise de Dados de Acidentes de Trânsito',
       description: 'ADAT, uma plataforma transparente que oferece dados detalhados sobre acidentes de trânsito no Brasil. Com um design inovador, você pode explorar e filtrar informações de forma fácil e intuitiva.',
       technologies: ['JavaScript', 'React', 'Next.js', 'Tailwind CSS', 'Go', 'Redis'],
-      image: '/adat.png',
+      image: `${BASE_URL}adat.png`,
       link: 'https://adat.app.fslab.dev/'
     },
     {
       period: '2023 - 2025',
       title: 'Cidades Inteligentes',
       description: 'O projeto "Cidades Inteligentes de Cerejeiras" é uma iniciativa importante que visa modernizar a cidade de Cerejeiras com tecnologia e inovação. A iniciativa inclui sistemas de controle de frota municipal, otimizando a gestão dos veículos públicos, e um chat interativo para que a população solicite serviços aos órgãos públicos.',
-      image: '/cidades.png',
+      image: `${BASE_URL}cidades.png`,
       technologies: ['JavaScript', 'React', 'Next.js', 'Node.js', 'Express', 'MongoDB'],
       link: 'https://frotas.app.fslab.dev/'
     },
@@ -78,7 +80,7 @@ export default function Portfolio() {
       period: '2024 - 2024',
       title: 'Mobile Levantamento Patrimonial IFRO',
       description: 'Levantamento Patrimonial, um aplicativo que facilita a consulta e o levantamento de informações sobre o patrimônio do IFRO de forma intuitiva e acessível.',
-      image: '/levantamento.svg',
+      image: `${BASE_URL}levantamento.svg`,
       technologies: ['JavaScript', 'Express.js', 'MongoDB', 'Kotlin JetPack'],
       link: 'https://www.figma.com/proto/dhz0w3tJg13HKijbPizq5Y/Levantamento-de-Invent%C3%A1rio?node-id=1430-1563&t=eAzz6tDksQhtrmCf-1&scaling=scale-down&content-scaling=fixed&page-id=719%3A546&starting-point-node-id=1430%3A1563'
     }
@@ -100,7 +102,7 @@ export default function Portfolio() {
               <div className="inline-block p-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full">
                 <div className="w-32 h-32 rounded-full overflow-hidden shadow-2xl">
                   <img
-                    src="/photo_perfil.jpeg"
+                    src={`${BASE_URL}photo_perfil.jpeg`}
                     alt="perfil"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
